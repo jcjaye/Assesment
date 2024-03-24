@@ -14,9 +14,7 @@ Void loop() {
   int wirestate = digitalRead(wire1);
   Serial.println(wirestate);
   
-
   //if the wire is cut the wirestate is HIGH
-
 
   if (digitalRead(wire1) == LOW) {
     //send lose signal"
